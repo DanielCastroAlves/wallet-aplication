@@ -1,0 +1,240 @@
+body {
+  width: auto;
+}
+
+.tabela {
+  background-color: #121214;
+  border: solid 2px gray;
+  border-collapse: collapse;
+  height: 950px;
+  width: 100%;
+}
+
+.cabecalho {
+  border: solid rgb(66, 66, 66) 3px;
+  border-radius: 5px;
+}
+
+.tr-cabecalho {
+  align-items: center;
+  background-color: dimgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+th {
+  color: #363636;
+  font-size: 20px;
+  padding: 15px;
+}
+
+th:hover {
+  color: #e2900d;
+  transition: all 0.5s;
+}
+
+.tr-corpo {
+  align-items: center;
+  background-color: rgb(149, 147, 147);
+  border: solid rgb(66, 66, 66) 3px;
+  border-radius: 3px;
+  display: flex;
+}
+
+.tr-corpo td {
+  align-items: center;
+  font-size: 18px;
+  font-weight: 800;
+  margin-right: 10px;
+}
+
+.description {
+  background-color: #363636;
+  border: 5px solid transparent;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  height: 50px;
+  margin-left: 10px;
+  padding: 3px;
+  transition: all 0.5s;
+  width: 10%;
+}
+
+.description:hover {
+  border: 5px solid #136497;
+}
+
+.tag-table {
+  background-color: #363636;
+  border: 5px solid transparent;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  height: 50px;
+  margin-right: 10px;
+  padding: 3px;
+  transition: all 0.5s;
+  width: 10%;
+}
+
+.tag-table:hover {
+  border: 5px solid #136497;
+}
+
+.method {
+  background-color: #363636;
+  border: 5px solid transparent;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  height: 50px;
+  margin: 10px;
+  padding: 3px;
+  transition: all 0.5s;
+  width: 10%;
+}
+
+.method:hover {
+  border: 5px solid #136497;
+}
+
+.valor {
+  background-color: #363636;
+  border: 5px solid transparent;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  height: 50px;
+  margin-left: 30px;
+  padding: 3px;
+  transition: all 0.5s;
+  width: 5%;
+}
+
+.valor:hover {
+  border: 5px solid #136497;
+}
+
+.moeda {
+  background-color: #363636;
+  border: 5px solid transparent;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  height: 50px;
+  margin: 10px;
+  padding: 3px;
+  transition: all 0.5s;
+  width: 8%;
+}
+
+.moeda:hover {
+  border: 5px solid #136497;
+}
+
+.cambio {
+  background-color: #363636;
+  border: 5px solid transparent;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  height: 50px;
+  margin: 10px;
+  padding: 3px;
+  transition: all 0.5s;
+  width: 5%;
+}
+
+.cambio:hover {
+  border: 5px solid #136497;
+}
+
+.valorConvertido {
+  background-color: #363636;
+  border: 5px solid transparent;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  height: 50px;
+  margin-left: 140px;
+  padding: 3px;
+  transition: all 0.5s;
+  width: 6%;
+}
+
+.valorConvertido:hover {
+  border: 5px solid #136497;
+}
+
+.real {
+  background-color: #363636;
+  border: 5px solid transparent;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  height: 50px;
+  margin-left: 150px;
+  padding: 3px;
+  transition: all 0.5s;
+  width: 7%;
+}
+
+.real:hover {
+  border: 5px solid #136497;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-right: 5px;
+}
+
+.delete {
+  background-color: #e01c1c;
+  border: none;
+  border-radius: 5px;
+  color: #eff2f5;
+  font-size: 18px;
+  font-weight: 800;
+  height: 50px;
+  margin: 10px;
+  outline-width: 0;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 70%;
+}
+
+.delete:hover {
+  background-color: #fd6666;
+  color: white;
+  cursor: pointer;
+  transition: all;
+}
+
+.edite {
+  background-color: #00a4e6;
+  border: none;
+  border-radius: 5px;
+  color: #eff2f5;
+  font-size: 18px;
+  font-weight: 800;
+  height: 50px;
+  margin: 10px;
+  outline-width: 0;
+  padding: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+}
+
+.edite:hover {
+  background-color: #83c3ff;
+  color: white;
+  cursor: pointer;
+  transition: all;
+}
+

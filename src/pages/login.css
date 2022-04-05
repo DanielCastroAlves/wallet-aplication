@@ -1,0 +1,127 @@
+.login {
+  align-items: center;
+  background-color: #121214;
+  color: gray;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.login-logo img {
+  height: 300px;
+  width: 300px;
+}
+
+.login-direita {
+  align-items: center;
+  background-color: #29292e;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  margin-left: 50px;
+  padding: 20px;
+  width: 500px;
+}
+
+.login-direita h1 {
+  font-family: Roboto Slab, Arial, sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.login-loginInputEmail {
+  align-items: center;
+  background-color: #1a1a1d;
+  border-radius: 5px;
+  color: gray;
+  display: flex;
+  height: 50px;
+  padding: 3px;
+  width: 98%;
+}
+
+.login-loginInputEmail svg {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.login-loginInputEmail input {
+  background: transparent;
+  border: none;
+  color: #e1e1e6;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-right: 10px;
+  outline-width: 0;
+  width: 100%;
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0 30px #1a1a1d inset;
+  -webkit-text-fill-color: white;
+}
+
+.login-loginInputPassword {
+  align-items: center;
+  background-color: #1a1a1d;
+  border-radius: 5px;
+  color: gray;
+  display: flex;
+  height: 50px;
+  margin: 5px;
+  padding: 3px;
+  width: 98%;
+}
+
+.login-loginInputPassword svg {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.login-loginInputPassword input {
+  background: transparent;
+  border: none;
+  color: #e1e1e6;
+  font-size: 17px;
+  margin-left: 12px;
+  margin-right: 10px;
+  outline-width: 0;
+  width: 100%;
+}
+
+.login-direita button {
+  background-color: #202024;
+  border: none;
+  border-radius: 5px;
+  color: #eff2f5;
+  font-size: 18px;
+  font-weight: 800;
+  height: 50px;
+  margin-top: 5px;
+  outline-width: 0;
+  width: 98%;
+}
+
+.login-direita button:hover {
+  background-color: #121214;
+  color: #eff2f5;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.login-direita button:disabled {
+  background-color: #ccc;
+  border: 1px solid #999;
+  color: #666;
+}
+
+.login-eye {
+  align-items: center;
+  cursor: pointer;
+  font-size: 30;
+  justify-content: center;
+  margin-right: 10px;
+}

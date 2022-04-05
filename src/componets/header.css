@@ -1,0 +1,69 @@
+.header {
+  align-items: center;
+  background: dimgray;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.logo {
+  margin-right: 15px;
+}
+
+.user-container {
+  align-items: center;
+  color: #363636;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.user-email {
+  align-items: baseline;
+  color: #363636;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.logo-user {
+  margin-right: 5px;
+  margin-top: 7px;
+}
+
+.valor-container {
+  align-items: center;
+  color: #363636;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.conteiner-direita {
+  align-items: center;
+  color: #363636;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+.valor-number {
+  align-items: baseline;
+  color: #363636;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  padding: 5px;
+}
